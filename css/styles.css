@@ -1,0 +1,449 @@
+html, body{
+	height: 100%;
+	border: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: left;
+	background-color: #024;
+	color: white;
+	min-width: 950px;
+}
+
+a{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+a:visited{
+	display: inline-block;
+	color: lightgreen;
+	text-decoration: none;
+}
+
+b{
+	display: block;
+	padding: 10px;
+}
+
+button{
+	padding: 5px 10px;
+}
+
+span.label{
+	font-weight: bold;
+	color: yellow;
+}
+
+span.namelabel{
+	font-size: 12px;
+	font-weight: bold;
+	color: yellow;
+	text-align: left;
+}
+
+span.idlabel{
+	font-size: 10px;
+	font-weight: normal;
+	color: lightblue;
+	text-align: left;
+}
+
+.header{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	color: white;
+	width: 100%;
+	margin: 10px auto;
+}
+
+#content {
+	margin: auto;
+}
+
+#reports{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	width: 60%;
+	margin: 10px auto;
+	padding: 15px;
+	border-style: solid;
+	border-color: yellow;
+	border-width: 1px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+div.title {
+	font-size: 18px;
+	width: 100%;
+	padding: 5px;
+}
+
+div.cell {
+	position: relative;
+	width: 90%;
+	height: 34px;
+	text-align: center;
+	padding: 5px;
+	margin: 10px auto;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 5px;
+}
+
+div.viewer {
+	position: relative;
+	top: -30px;
+	height: 154px;
+}
+
+div.typeP {
+	position: relative;
+	color: rgba(255,255,4,0.5);
+	background-color: rgba(0,0,0,0.25);
+	font-size: 6pt;
+	padding: 2px 2px 2px 2px;
+	margin: 10px;
+	left: -5px;
+	bottom: -155px;
+	width: 60px
+}
+
+div.typeS {
+	position: relative;
+	color: rgba(255,255,4,0.5);
+	background-color: rgba(0,0,0,0.25);
+	font-size: 6pt;
+	padding: 2px 2px 2px 2px;
+	margin: 10px;
+	left: -5px;
+	bottom: 30px;
+	width: 60px
+}
+
+div.srf {
+	color: yellow;
+	font-size: 6pt;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	margin: 0px;
+	width: 64px;
+	text-align: center;
+	background-color: #424242;
+	cursor: pointer;
+}
+
+table {
+}
+
+td.name {
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-weight: normal;
+	color: yellow;
+	border: 1px solid gray;
+}
+
+td.date {
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	color: white;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+div .index {
+	color: yellow;
+	font-size: 13pt;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	padding: 2px 2px 2px 2px;
+	margin: 2px 2px 2px 2px;
+	width: 18px;
+	text-align: center;
+	background-color: #424242;
+}
+
+div .index0 {
+	color: yellow;
+	font-size: 13pt;
+	border-style: solid;
+	border-color: yellow;
+	border-width: 1px;
+	border-radius: 5px;
+	padding: 2px 3px 2px 3px;
+	margin: 2px 2px 2px 2px;
+	width: 64px;
+	text-align: center;
+	background-color: #424242;
+}
+
+.banner-content {
+  	position: relative;
+	display: inline-block;
+	width: 100%;
+	vertical-align: middle;
+}
+
+.banner-left {
+  	position: relative;
+	display: inline-block;
+	width: 600px;
+}
+
+.title-script {
+	font-size:64pt;
+	font-family: Brush Script MT;
+	color:#e4dd84
+}
+
+.title-plain {
+	font-size:36pt;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#ffffff
+}
+
+.clarus2 {
+	display: inline-block;
+	font-size:42pt;
+	font-family: Brush Script MT;
+	color:#e4dd84
+}
+
+.banner-right {
+  	position: relative;
+	display: inline-block;
+	float: right;
+	top: 0;
+	width: 100px;
+	text-align: center;
+}
+
+.phaethon {
+	font-size:12pt;
+	font-family: Brush Script MT;
+	color: yellow;
+	text-align: center;
+}
+
+.version {
+	font-size:8pt;
+	font-family:  Arial, Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+}
+
+div.div_wrap {
+	color: green;
+	font-size: 8pt;
+	padding: 2px 3px 2px 3px;
+	margin: 2px 2px 2px 2px;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 260px 900px;
+}
+
+div.div_pat {
+	color: yellow;
+	font-size: 10pt;
+	border-style: solid;
+	border-color: yellow;
+	border-width: 1px;
+	border-radius: 5px;
+	padding: 2px 3px 2px 3px;
+	margin: 2px 2px 2px 2px;
+	width: 250px;
+	text-align: left;
+	float: left;
+}
+
+div.div_list {
+	color: green;
+	font-size: 8pt;
+	padding: 2px 3px 2px 3px;
+	margin: 2px 2px 2px 2px;
+	width: auto;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+	float: right;
+}
+
+div.div_date {
+	color: yellow;
+	font-size: 8pt;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 5px;
+	padding: 10px 3px 10px 3px;
+	margin: 2px 2px 2px 2px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#overlay {
+	position: fixed; /* Sit on top of the page content */
+	display: none; /* Hidden by default */
+	width: 100%; /* Full width (cover the whole page) */
+	height: 100%; /* Full height (cover the whole page) */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,1); /* Black background with opacity */
+	z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+#canvas {
+	position: relative; /* Sit on top of the page content */
+	border-style: solid;
+	border-color: #888888;
+	border-width: 1px;
+	margin-top: 10px;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	cursor: pointer; /* Add a pointer on hover */
+	z-index: 99; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+#help {
+	position: fixed; /* Sit on top of the page content */
+	top: 5px;
+	left: 5px;
+	color:  #a0a0a0;
+	background-color: rgba(0,0,0,1);
+	font-size: 24pt;
+	padding: 0px 2px 4px 2px;
+	margin: 20px;
+	border-style: solid;
+	border-color: #a0a0a0;
+	border-width: 3px;
+	border-radius: 5px;
+	display: block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	cursor: pointer; /* Add a pointer on hover */
+	z-index: 99; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+#closer {
+	position: fixed; /* Sit on top of the page content */
+	top: 5px;
+	right: 5px;
+	color: yellow;
+	background-color: rgba(0,0,0,1);
+	font-size: 24pt;
+	padding: 0px 2px 4px 2px;
+	margin: 20px;
+	border-style: solid;
+	border-color: yellow;
+	border-width: 3px;
+	border-radius: 5px;
+	display: block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	cursor: pointer; /* Add a pointer on hover */
+	z-index: 99; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+#brightness {
+	position: fixed; /* Sit on top of the page content */
+	top: 45px;
+	left: 50px;
+	color: #6688ff;
+	background-color: rgba(0,0,0,1);
+	font-size: 10pt;
+	padding: 0px 2px 4px 2px;
+	margin: 20px;
+	border-style: solid;
+	border-color: #6688ff;
+	border-width: 1px;
+	border-radius: 5px;
+	display: block;
+	width: 100px;
+	height: 12px;
+	text-align: right;
+	cursor: pointer; /* Add a pointer on hover */
+	z-index: 99; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+#contrast {
+	position: fixed; /* Sit on top of the page content */
+	top: 25px;
+	left: 50px;
+	color: #44ff44;
+	background-color: rgba(0,0,0,1);
+	font-size: 10pt;
+	padding: 0px 2px 4px 2px;
+	margin: 20px;
+	border-style: solid;
+	border-color: #44ff44;
+	border-width: 1px;
+	border-radius: 5px;
+	display: block;
+	width: 100px;
+	height: 12px;
+	text-align: right;
+	cursor: pointer; /* Add a pointer on hover */
+	z-index: 99; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+#zoom {
+	position: fixed; /* Sit on top of the page content */
+	top: 5px;
+	left: 50px;
+	color: #ff4444;
+	background-color: rgba(0,0,0,1);
+	font-size: 10pt;
+	padding: 0px 2px 4px 2px;
+	margin: 20px;
+	border-style: solid;
+	border-color: #ff4444;
+	border-width: 1px;
+	border-radius: 5px;
+	display: block;
+	width: 100px;
+	height: 12px;
+	text-align: right;
+	cursor: pointer; /* Add a pointer on hover */
+	z-index: 99; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+#helper {
+	position: fixed; /* Sit on top of the page content */
+	display: none; /* Hidden by default */
+	width: 500px; /* Full width (cover the whole page) */
+	height: 500px; /* Full height (cover the whole page) */
+	top: 25px;
+	left: 180px;
+	font-size: 12pt;
+	line-height: 1.6;
+	color: darkblue;
+	background-color: rgba(255,255,255,1); /* Black background with opacity */
+	z-index: 100; /* Specify a stack order in case you're using a different order for other elements */
+	padding: 0px 20px 20px 20px;
+	border-color: #000088;
+	border-width: 2px;
+	border-radius: 5px;
+}
+
+.bold {
+	font-weight: bold;
+}
